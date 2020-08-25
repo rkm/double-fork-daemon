@@ -1,0 +1,4 @@
+covdefaults
+coverage
+flake8
+pytest
