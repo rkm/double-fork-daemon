@@ -1,6 +1,7 @@
 # Double Fork Daemon
 
-A python3 implementation of the UNIX double-fork "magic trick" for fully daemonizing a process.
+A python3 implementation of the UNIX double-fork "magic trick" for fully
+daemonizing a process.
 
 Built from:
 
