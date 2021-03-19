@@ -97,5 +97,6 @@ repos:
     rev: 3.9.0
     hooks:
       - id: flake8
-        additional_dependencies: [flake8-bugbear, flake8-assert-msg]
+        additional_dependencies:
+          [flake8-bugbear, flake8-assert-msg, pep8-naming]
         args: [--config, .meta/flake8.conf]
