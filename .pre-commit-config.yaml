@@ -75,7 +75,7 @@ repos:
       - id: add-trailing-comma
         args: [--py36-plus]
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.18.2
+    rev: v2.19.0
     hooks:
       - id: pyupgrade
         args: [--py38-plus]
@@ -89,7 +89,7 @@ repos:
       - id: mypy
         args: [--config-file, .meta/mypy.ini]
   - repo: https://github.com/psf/black
-    rev: "21.5b1"
+    rev: "21.5b2"
     hooks:
       - id: black
         language_version: python38
