@@ -80,7 +80,7 @@ repos:
       - id: pyupgrade
         args: [--py38-plus]
   - repo: https://github.com/asottile/yesqa
-    rev: v1.3.0
+    rev: v1.4.0
     hooks:
       - id: yesqa
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -94,7 +94,7 @@ repos:
       - id: black
         language_version: python38
   - repo: https://github.com/PyCQA/flake8
-    rev: 5.0.2
+    rev: 5.0.4
     hooks:
       - id: flake8
         additional_dependencies:
