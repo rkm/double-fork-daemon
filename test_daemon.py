@@ -24,7 +24,7 @@ def main() -> int:
         return daemon.stop()
     if args.action == "restart":
         return daemon.restart()
-    raise NotImplementedError(f"No case for '{args.action}'")
+    raise NotImplementedError(f"No case for {args.action!r}")
 
 
 if __name__ == "__main__":
